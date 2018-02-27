@@ -1,7 +1,7 @@
 {% set name = "autovizwidget" %}
 {% set version = "0.12.5" %}
 {% set hash_type = "sha256" %}
-{% set hash_val = "$HASH" %}
+{% set hash_val = "d4bc1baac59de1713b5c0366d01be97910de5132ab9c0fe9e3c9e647f8720105" %}
 
 package:
     name: {{ name }}
