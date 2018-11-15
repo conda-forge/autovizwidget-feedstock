@@ -29,12 +29,9 @@ if [ -z "$CONFIG" ]; then
     exit 1
 fi
 
-<<<<<<< HEAD
-=======
 pip install shyaml
 DOCKER_IMAGE=$(cat "${FEEDSTOCK_ROOT}/.ci_support/${CONFIG}.yaml" | shyaml get-value docker_image.0 condaforge/linux-anvil )
 
->>>>>>> master
 mkdir -p "$ARTIFACTS"
 DONE_CANARY="$ARTIFACTS/conda-forge-build-done-${CONFIG}"
 rm -f "$DONE_CANARY"
@@ -45,11 +42,7 @@ docker run -it \
            -e CONFIG \
            -e BINSTAR_TOKEN \
            -e HOST_USER_ID \
-<<<<<<< HEAD
-           condaforge/linux-anvil \
-=======
            $DOCKER_IMAGE \
->>>>>>> master
            bash \
            /home/conda/feedstock_root/.circleci/build_steps.sh
 
