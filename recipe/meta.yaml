@@ -1,7 +1,7 @@
 {% set name = "autovizwidget" %}
-{% set version = "0.12.6" %}
+{% set version = "0.12.7" %}
 {% set hash_type = "sha256" %}
-{% set hash_val = "f44ff417406a502658dd98c7cf5c05ef12f44a0c3f6fbce4f54168ebce8868f8" %}
+{% set hash_val = "130e5de5bef9a63b86dba1c641d34aa7a0174b1eb729defef9e062b50677d0cd" %}
 
 package:
     name: {{ name }}
@@ -15,7 +15,7 @@ source:
 build:
     noarch: python
     noarch: python
-    number: 1000
+    number: 0
     script: "{{ PYTHON }} -m pip install . -vvv"
 
 requirements:
