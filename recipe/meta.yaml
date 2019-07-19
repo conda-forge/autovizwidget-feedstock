@@ -27,7 +27,7 @@ requirements:
         - notebook >=4.2
         - ipywidgets >=5.0.0
         - hdijupyterutils >=0.6.0
-        - plotly
+        - plotly >=3
 
 test:
     imports:
