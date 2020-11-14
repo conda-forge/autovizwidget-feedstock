@@ -30,7 +30,7 @@ requirements:
 test:
   imports:
     - autovizwidget
-    - autovizwidget/plotlygraphs
+    - autovizwidget.plotlygraphs
   commands:
     - pip check
   requires:
