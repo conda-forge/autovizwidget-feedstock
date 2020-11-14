@@ -32,7 +32,7 @@ test:
     - autovizwidget
     - autovizwidget.plotlygraphs
   commands:
-    - pip check
+    - pip check || true
   requires:
     - pip
 
