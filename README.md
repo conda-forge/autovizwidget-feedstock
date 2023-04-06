@@ -1,11 +1,11 @@
-About autovizwidget
-===================
+About autovizwidget-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/autovizwidget-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/jupyter-incubator/sparkmagic/autovizwidget
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/autovizwidget-feedstock/blob/main/LICENSE.txt)
 
 Summary: AutoVizWidget: An Auto-Visualization library for pandas dataframes
 
