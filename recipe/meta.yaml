@@ -1,5 +1,5 @@
 {% set name = "autovizwidget" %}
-{% set version = "0.20.0" %}
+{% set version = "0.21.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/autovizwidget-{{ version }}.tar.gz
-  sha256: 5e413362a6800fa32e6549d1d314a167b46dfc4850c4750cc8d8b6a7db486068
+  sha256: e2e605b6f45736a6fefd43dcd275d69804293294d914f0903fd30265ac1b65a9
 
 build:
   number: 0
@@ -23,7 +23,7 @@ requirements:
     - hdijupyterutils >=0.6
     - ipywidgets >5.0.0
     - notebook >=4.2
-    - pandas >=0.20.1
+    - pandas >=0.20.1,<2.0.0
     - plotly >=3
     - python >=3.6
 
@@ -45,3 +45,4 @@ about:
 extra:
   recipe-maintainers:
     - dbast
+    - devstein
