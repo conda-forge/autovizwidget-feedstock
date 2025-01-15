@@ -11,7 +11,7 @@ source:
   sha256: daf3257c137cafba86ddc8271cd37c3783d3a958a0ff8111f40ea8de2139cf3a
 
 build:
-  number: 1
+  number: 2
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -23,7 +23,7 @@ requirements:
     - hdijupyterutils >=0.6
     - ipywidgets >5.0.0
     - notebook >=4.2
-    - pandas >=0.20.1,<2.0.0
+    - pandas <3.0.0
     - plotly >=3
     - python >={{ python_min }}
 
